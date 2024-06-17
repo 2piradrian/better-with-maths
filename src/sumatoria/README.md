@@ -53,3 +53,32 @@ Este archivo contiene la implementación principal del programa. Aquí se encuen
 
 Para ejecutar el programa, simplemente compila y corre el archivo `main.kt`. El programa demostrará la funcionalidad de ambos métodos para valores de `n` pequeños y grandes, y mostrará los resultados de las mediciones de tiempo y espacio.
 
+#### Salida esperada
+
+```
+--- Test de funcionalidad ---
+Sumatoria tradicional para 10 = 55
+Sumatoria optimizada para 10 = 55
+
+ --- Test de tiempo ---
+Método tradicional
+Tiempo de ejecución para n = 10: 0,353 ms
+Método optimizado
+Tiempo de ejecución para n = 10: 0,0074 ms
+
+Método tradicional
+Tiempo de ejecución para n = 10000000: 4,8137 ms
+Método optimizado
+Tiempo de ejecución para n = 10000000: 0,001 ms
+
+ --- Test de espacio ---
+Método tradicional
+Espacio de memoria para n = 10: 0 KB
+Método optimizado
+Espacio de memoria para n = 10: 0 KB
+
+Método tradicional
+Espacio de memoria para n = 10000000: 40,98 KB
+Método optimizado
+Espacio de memoria para n = 10000000: 0 KB
+```
