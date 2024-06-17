@@ -55,6 +55,8 @@ Para ejecutar el programa, simplemente compila y corre el archivo `main.kt`. El 
 
 #### Salida esperada
 
+Tener en cuenta que estos valores son de referencia y no serán exactamente estos los que usted reciba para la ejecución en su máquina.
+
 ```
 --- Test de funcionalidad ---
 Sumatoria tradicional para 10 = 55
