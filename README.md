@@ -7,5 +7,5 @@ Explorando cómo los principios matemáticos pueden hacer que la programación s
 Exploring how mathematical principles can make programming more efficient.
 (Although not always more readable)
 
-## Contacto
+## Contacto | Contact
 Adrián Rodríguez - [Email](mailto:rodriguezcadr@gmail.com)
