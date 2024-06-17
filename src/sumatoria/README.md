@@ -14,7 +14,7 @@ $\[ S = \frac{n(n + 1)}{2} \]$
 
 Proporciona una manera rápida de calcular la suma sin necesidad de iterar a través de todos los números.
 
-## Archivos del Proyecto
+## Archivos
 
 ### `main.kt`
 
