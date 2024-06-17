@@ -1,4 +1,4 @@
-package es.sumatoria
+package sumatoria
 
 import checkSpace
 import checkTime
@@ -27,6 +27,17 @@ fun sumNumbers(n: Int): Int {
         sum += i
     }
     return sum
+
+    /*
+        Sintaxis equivalente en C++
+
+        int sum = 0;
+        for (int i = 1; i <= n; ++i) {
+            sum += i;
+        }
+        return sum;
+
+    * */
 }
 
 fun optimizedSumNumbers(n: Int): Int {

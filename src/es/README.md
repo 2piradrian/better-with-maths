@@ -1,1 +1,0 @@
-# Explicaciones en español
