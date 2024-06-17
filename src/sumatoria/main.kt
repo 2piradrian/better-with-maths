@@ -21,25 +21,16 @@ fun main(){
     testSpace(10000000)
 }
 
+// Método tradicional. Usando un simple bucle for
 fun sumNumbers(n: Int): Int {
     var sum = 0
     for (i in 1..n) {
         sum += i
     }
     return sum
-
-    /*
-        Sintaxis equivalente en C++
-
-        int sum = 0;
-        for (int i = 1; i <= n; ++i) {
-            sum += i;
-        }
-        return sum;
-
-    * */
 }
 
+// Método optimizado. Usando sumatoria de Gauss
 fun optimizedSumNumbers(n: Int): Int {
     return n * (n + 1) / 2
 }
