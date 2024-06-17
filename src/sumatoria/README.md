@@ -10,7 +10,7 @@ Este repositorio contiene un programa escrito en Kotlin que demuestra dos métod
 
 La Sumatoria de Gauss es una fórmula matemática que permite calcular la suma de los primeros `n` números naturales de manera eficiente. La fórmula es:
 
-\[ \text{Suma} = \frac{n \cdot (n + 1)}{2} \]
+$\[ S = \frac{n(n + 1)}{2} \]$
 
 Proporciona una manera rápida de calcular la suma sin necesidad de iterar a través de todos los números.
 
