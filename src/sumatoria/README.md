@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este repositorio contiene un programa escrito en Kotlin que demuestra dos métodos para calcular la suma de los primeros `n` números naturales:
+Programa escrito en Kotlin que demuestra dos métodos para calcular la suma de los primeros `n` números naturales:
 1. **Método Tradicional**: Utiliza un bucle para sumar los números secuencialmente.
 2. **Método Optimizado**: Utiliza la fórmula de la Sumatoria de Gauss.
 
