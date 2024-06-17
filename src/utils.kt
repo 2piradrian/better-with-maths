@@ -1,6 +1,6 @@
 import java.text.DecimalFormat
 
-fun checkTime(n: Int, function: (Int) -> Unit): String {
+fun <T> checkTime(n: T, function: (T) -> Unit): String {
     val start = System.nanoTime()
     function(n)
     val end = System.nanoTime()
@@ -10,7 +10,7 @@ fun checkTime(n: Int, function: (Int) -> Unit): String {
     return formatMillis(time)
 }
 
-fun checkSpace(n: Int, function: (Int) -> Unit): String {
+fun <T> checkSpace(n: T, function: (T) -> Unit): String {
     val runtime = Runtime.getRuntime()
     runtime.gc()
 
