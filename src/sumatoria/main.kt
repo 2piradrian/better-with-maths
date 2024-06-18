@@ -1,5 +1,9 @@
 package sumatoria
 
+import sumatoria.utils.testSameFunctionality
+import sumatoria.utils.testSpace
+import sumatoria.utils.testTime
+
 fun main(){
     println()
 

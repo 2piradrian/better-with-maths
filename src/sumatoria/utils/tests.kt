@@ -1,7 +1,9 @@
-package sumatoria
+package sumatoria.utils
 
 import checkSpace
 import checkTime
+import sumatoria.optimizedSummation
+import sumatoria.traditionalSummation
 
 fun testSameFunctionality (){
     val n = 10
