@@ -18,7 +18,11 @@ Proporciona una manera rápida de calcular la suma sin necesidad de iterar a tra
 
 ### `main.kt`
 
-Este archivo contiene la implementación principal del programa. Aquí se encuentran las funciones para calcular la suma de manera tradicional y optimizada, así como las funciones para medir el tiempo de ejecución y el uso de memoria de cada método.
+Este archivo contiene la implementación principal del programa. Aquí se encuentran las funciones para calcular la suma de manera tradicional y optimizada.
+
+### `examples.kt`
+
+Este archivo contiene algunos ejemplos prácticos para terminar de entender la idea.
 
 #### Funciones Principales
 
