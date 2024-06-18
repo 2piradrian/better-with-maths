@@ -22,11 +22,11 @@ Este archivo contiene la implementación principal del programa. Aquí se encuen
 
 #### Funciones Principales
 
-- `sumNumbers(n: Int): Int`
+- `traditionalSummation(n: Int): Int`
     - Calcula la suma de los primeros `n` números naturales usando un bucle (Manera tradicional).
     - Sintaxis equivalente en C++:
       ```cpp
-      int sumNumbers(int n) {
+      int traditionalSummation(int n) {
           int sum = 0;
           for (int i = 1; i <= n; ++i) {
               sum += i;
@@ -34,11 +34,11 @@ Este archivo contiene la implementación principal del programa. Aquí se encuen
           return sum;
       }
       ```
-- `optimizedSumNumbers(n: Int): Int`
+- `optimizedSummation(n: Int): Int`
     - Calcula la suma de los primeros `n` números naturales usando la fórmula de la Sumatoria de Gauss.
     - Sintaxis equivalente en C++:
       ```cpp
-      int optimizedSumNumbers(int n) {
+      int optimizedSummation(int n) {
           return n * (n + 1) / 2;
       }
       ```
