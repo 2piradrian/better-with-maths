@@ -14,15 +14,11 @@ $\[ S = \frac{n(n + 1)}{2} \]$
 
 Proporciona una manera rápida de calcular la suma sin necesidad de iterar a través de todos los números.
 
-## Archivos
+## Archivo
 
 ### `main.kt`
 
 Este archivo contiene la implementación principal del programa. Aquí se encuentran las funciones para calcular la suma de manera tradicional y optimizada.
-
-### `examples.kt`
-
-Este archivo contiene algunos ejemplos prácticos para terminar de entender la idea.
 
 #### Funciones Principales
 
@@ -46,12 +42,6 @@ Este archivo contiene algunos ejemplos prácticos para terminar de entender la i
           return n * (n + 1) / 2;
       }
       ```
-
-- `testTime(n: Int)`
-    - Mide y muestra el tiempo de ejecución de ambos métodos para un valor dado de `n`.
-
-- `testSpace(n: Int)`
-    - Mide y muestra el uso de memoria de ambos métodos para un valor dado de `n`.
 
 #### Ejecución
 
